@@ -1,10 +1,16 @@
 export default function Header(){
   return (
-    <div className="flex w-full h-10 px-10 justify-between items-center">
+    <header className="w-full flex h-[100px] px-41 py-3">
+      <div className="w-full flex justify-between items-center">
+        <p>Pks Artwork</p>
+
+        </div>
+      <div className="flex justify-between items-center">
         <a href="/"> Home </a>
-        <a href="/projects"> Projetos </a>
-        <a href="/contact"> Encomendas </a>
+        <a href="/projectos"> Projetos </a>
+        <a href="/encomendas"> Encomendas </a>
     </div>
+    </header>
   )
 }
 
